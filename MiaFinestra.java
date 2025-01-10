@@ -11,13 +11,13 @@ public class MiaFinestra extends JFrame{
             this.l2 = new JLabel(l2);
             this.l3 = new JLabel(l3);
             setTitle("Mia Finestra");
-            setLayout(new GridLayout(1,0));
+            setLayout(new FlowLayout());
             add(this.l1);
             add(this.l2);
             add(this.l3);
             
             //pack();
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            setResizable(false);
+            //setResizable(false);
         }
 }
