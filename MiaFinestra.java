@@ -17,7 +17,6 @@ public class MiaFinestra extends JFrame{
             add(this.l3);
             
             //pack();
-            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             //setResizable(false);
         }
 }
