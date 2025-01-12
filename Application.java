@@ -10,7 +10,7 @@ public class Application {
         
         MiaFinestra2 f2 = new MiaFinestra2("Esempio combo box");
         f2.setSize(300,100);
-        //f2.setVisible(true);
+        f2.setVisible(true);
 
         MiaFinestra3 f3 = new MiaFinestra3("Esempio con text field");
         f3.setSize(300,100);
