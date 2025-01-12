@@ -1,7 +1,7 @@
 public class Application {
     public static void main(String args[])
     {
-        MiaFinestra f1 = new MiaFinestra("Buona lezione",
+        MiaFinestra1 f1 = new MiaFinestra1("Buona lezione",
         " alla classe 4CI", "Speriamo bene!!");
         
         f1.setLocation(500,300);

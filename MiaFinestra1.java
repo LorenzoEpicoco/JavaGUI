@@ -2,11 +2,11 @@ import javax.swing.*;
 import java.awt.*;
 import javax.swing.JLabel;
 
-public class MiaFinestra extends JFrame{
+public class MiaFinestra1 extends JFrame{
     
         private JLabel l1,l2,l3;
         
-        public MiaFinestra(String l1, String l2, String l3){
+        public MiaFinestra1(String l1, String l2, String l3){
             this.l1 = new JLabel(l1);
             this.l2 = new JLabel(l2);
             this.l3 = new JLabel(l3);
