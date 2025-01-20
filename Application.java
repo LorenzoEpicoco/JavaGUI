@@ -15,10 +15,10 @@ public class Application {
         MiaFinestra3 f3 = new MiaFinestra3("Esempio con text field");
         f3.setSize(300,100);
         f3.setLocation(500,300);
-        //f3.setVisible(true);
+        f3.setVisible(true);
            
         F1 f4=new F1("esempio");
-        f4.setVisible(true); 
+        //f4.setVisible(true); 
     }   
 
 }
