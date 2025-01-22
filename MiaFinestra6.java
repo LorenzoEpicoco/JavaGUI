@@ -37,19 +37,26 @@ public class MiaFinestra6 extends JFrame implements ActionListener{
         add(p1,BorderLayout.SOUTH);
 
         b1.addActionListener(this);
+        b2.addActionListener(this);
+        b3.addActionListener(this);
+        canc.addActionListener(this);
         
 
         setSize(300,200);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-
+        setVisible(true);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource()==b1){
+        if(e.getSource()==b1)
             tf.setText("1");
-        }
+        if(e.getSource()==b2)
+          tf.setText("2");
+        if(e.getSource()==b3)
+          tf.setText("3");
+        if(e.getSource()==canc)
+          tf.setText(" ");
     }
     
 }
