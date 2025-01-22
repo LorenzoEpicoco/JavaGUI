@@ -1,11 +1,11 @@
-import javax.swing.*;
+//mport javax.swing.*;
 
 import javafx.scene.layout.Border;
 
 import java.awt.*;
 import java.awt.event.*;
 
-public class MiaFinestra5 extends JFrame implements ActionListener{
+//public class MiaFinestra5 extends JFrame implements ActionListener{
     JPanel p1,p2,p3,p4,p5,p6;
     JTextField tf1,tf2;
     JButton b1;
@@ -43,7 +43,7 @@ public class MiaFinestra5 extends JFrame implements ActionListener{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
-    public void actionPerformed(ActionEvent e){
-        tf1.getText(
-    }
 }
+  //  public void actionPerformed(ActionEvent e){}
+  //  }
+//}
